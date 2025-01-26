@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Mustard Database</title>
+    <link rel="shortcut icon" href="mustard.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="unit.js" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    
+    <div class="layout">
+
+        <div class="leftbar">
+            
+            <img src="mustard.png" alt="" class="logo">
+
+            <h1>Mustard Database</h1>
+
+            <div class="divider">
+                <hr>
+                <span>NAV</span>
+            </div>
+
+            <div class="tabs">
+
+                <a href="index.html">HOME</a>
+                <a href="https://nefarkitti.github.io/mustardskillcreator">CREATOR</a>
+                <a>MUSTARD</a>
+
+            </div>
+
+        </div>
+
+        <div class="main">
+
+            <div class="topbar" id="unitname">
+                UNIT NAME
+            </div>
+
+            <div class="content" id="content">
+                
+                <div class="unitmain" id="unitmain">
+
+                    <div class="unitsect info">
+                        
+                        <img src="assets/units/janemust.png" alt="">
+
+                        <div class="divider">
+                            <hr>
+                            <span>Stats</span>
+                        </div>
+
+                        <div class="unitgrid" id="basicstats">
+
+                            <div class="item">
+
+                                <img src="assets/health.png" alt="">
+                                <span>100</span>
+
+                            </div>
+
+                            <div class="item">
+
+                                <img src="assets/BOMB04B.png" alt="">
+                                <span>1</span>
+
+                            </div>
+
+                            <div class="item">
+
+                                <img src="assets/sight.png" alt="">
+                                <span>1</span>
+
+                            </div>
+
+                            <div class="item">
+
+                                <img src="assets/shield.png" alt="">
+                                <span>1</span>
+
+                            </div>
+
+                            <div class="item">
+
+                                <img src="assets/dodge.png" alt="">
+                                <span>1</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="divider">
+                            <hr>
+                            <span>Resistances</span>
+                        </div>
+
+                        <div class="unitgrid" id="typestats">
+
+                            <div class="item">
+
+                                <img src="assets/corporate.png" alt="">
+                                <span class="corp">100</span>
+
+                            </div>
+                            <div class="item">
+
+                                <img src="assets/sewage.png" alt="">
+                                <span class="swge">100</span>
+
+                            </div>
+                            <div class="item">
+
+                                <img src="assets/soda.png" alt="">
+                                <span class="soda">100</span>
+
+                            </div>
+                            <div class="item">
+
+                                <img src="assets/absurd.png" alt="">
+                                <span class="absurd">100</span>
+
+                            </div>
+                            <div class="item">
+
+                                <img src="assets/minimalist.png" alt="">
+                                <span class="minm">100</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="divider">
+                            <hr>
+                            <span>Status Resistances</span>
+                        </div>
+
+                        <div class="unitgrid" id="statusstats">
+
+                            <div class="item">
+
+                                <img src="" alt="Bleed">
+                                <span>1</span>
+
+                            </div>
+
+                            <div class="item">
+
+                                <img src="" alt="Poison">
+                                <span>1</span>
+
+                            </div>
+
+                            <div class="item">
+
+                                <img src="" alt="Burn">
+                                <span>1</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="divider mobile">
+                            <hr>
+                            <span>SKILLS</span>
+                        </div>
+
+                    </div>
+                    <div class="unitsect skills">
+                        
+                        <div class="skillslist" id="skillslist">
+
+                            <div class="skill corpskill">
+                                <span class="type">ATTACK</span>
+
+                                <div class="skillmain">
+
+                                    <div class="damage">
+
+                                        <h1 title="Base Damage">0</h1>
+
+                                        <div class="divider">
+                                            <hr>
+                                            <span>TYPES</span>
+                                        </div>
+
+                                        <div class="types">
+
+                                            <span class="corp">
+                                                <img src="assets/corporate.png">1
+                                            </span>
+                                            <span class="swge">
+                                                <img src="assets/sewage.png">1
+                                            </span>
+                                            <span class="soda">
+                                                <img src="assets/soda.png">1
+                                            </span>
+                                            <span class="absurd">
+                                                <img src="assets/absurd.png">1
+                                            </span>
+                                            <span class="minm">
+                                                <img src="assets/minimalist.png">1
+                                            </span>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="skillcontent">
+    
+                                        <div class="titleHold">
+                                            <span class="title corp alt">Flaming Sphere</span>
+                                            <span title="Rev Ups" class="revscost"><img src="assets/bullet.png">x0</span>
+                                        </div>
+
+                                        <div class="details">
+                                            <div class="deet" title="Targets">
+                                                <div class="square"></div>
+                                                <div class="square"></div>
+                                                <div class="square"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="details">
+                                            <div class="deet">
+                                                <span class="deetname">ACCY:</span>
+                                                <span class="deetval">1</span>
+                                            </div>
+                                            /
+                                            <div class="deet">
+                                                <span class="deetname">MLTI:</span>
+                                                <span class="deetval">1</span>
+                                            </div>
+                                            /
+                                            <div class="deet">
+                                                <span class="deetname">CLDN:</span>
+                                                <span class="deetval">1</span>
+                                            </div>
+                                        </div>
+    
+                                        <span class="extra">This skill does 100 extra damage against Human enemies.</span>
+    
+                                        <div class="divider">
+                                            <hr>
+                                            <span>STATUS EFFECTS</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
