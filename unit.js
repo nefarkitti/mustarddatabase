@@ -197,7 +197,7 @@ function loadUnit(i) {
             extradetailsHTML = `
                                     <div class="details">
                                         <div class="deet" title="Accuracy">
-                                                <img src="assets/SIGHT.png">${skill.accuracy}
+                                                <img src="assets/sight.png">${skill.accuracy}
                                             </div>
                                             <div class="deet" title="Cooldown">
                                                 <img src="assets/CLOCK07A.png">${skill.cooldown}
