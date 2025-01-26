@@ -158,7 +158,15 @@ function loadUnit(i) {
         let targetsHTML = ""
         let damageHTML = ""
         let multihitHTML = ""
-        let extradetailsHTML = ""
+        let extradetailsHTML = `
+        
+                                    <div class="details">
+                                            <div class="deet" title="Cooldown">
+                                                <img src="assets/CLOCK07A.png">${skill.cooldown}
+                                            </div>
+                                        </div>
+
+        `
         let statuseffectsHTML = ""
 
         let bleedhtml = ""
