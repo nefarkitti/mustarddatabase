@@ -3,7 +3,7 @@ const units = document.getElementById("units")
 
 let unitsData
 
-let regions = ["BASE", "PEPSI-CO", "RATS", "MISC"]
+let regions = ["BASE", "SWORD DESCENT", "PEPSI-CO", "RATS", "MISC"]
 
 units.innerHTML = ``
 
