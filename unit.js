@@ -151,6 +151,54 @@ function loadUnit(i) {
                             </div>
     `
 
+    if (unit.note) {
+
+        skillslist.innerHTML += `
+        
+        <div class="skill">
+
+                    <span class="type">Jane Note</span>
+
+                                <div class="skillmain">
+
+                                    <div class="skillcontent" style="margin-top:-10px;">
+    
+                                        <span class="extra">${unit.note}</span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+        
+        `
+
+    }
+
+    if (unit.behaviour) {
+        skillslist.innerHTML += `
+        
+        <div class="skill">
+
+                                <div class="skillmain">
+
+                                    <div class="skillcontent">
+
+                                        <div class="titleHold">
+                                            <span class="title alt">BEHAVIOUR</span>
+                                        </div>
+    
+                                        <span class="extra" style="margin-top:-0px;">${unit.behaviour}</span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+        
+        `
+    }
+
     for (let i =0;i< unit.skills.length;i++) {
 
         let skill = unit.skills[i]
