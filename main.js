@@ -41,11 +41,17 @@ axios.get('https://raw.githubusercontent.com/nefarkitti/mustardskillcreator/refs
 
                 if (unit.region == region) {
 
+                    let uniticon = "janemust.png"
+
+                    if (unit.icon) {
+                        uniticon = unit.icon
+                    }
+
                     section.innerHTML += `
                     
                             <a href="unit.html?id=${j}" class="unit">
 
-                                <img src="assets/units/janemust.png" alt="${unit.image}.png" border="0" class="icon">
+                                <img src="assets/units/${uniticon}.png" alt="${unit.image}.png" border="0" class="icon">
 
                                 <div class="shadow">
 
