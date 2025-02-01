@@ -511,4 +511,7 @@ body {
     .mobile {
         display: flex !important;
     }
+    .skillmain {
+        flex-direction: column !important;
+    }
 }
