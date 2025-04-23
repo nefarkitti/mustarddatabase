@@ -1,0 +1,139 @@
+[
+    {
+        "name": "Roof",
+        "desc": "The elevator down to the sewers can be found here.",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 20",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 19",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 18",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 17",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 16",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 15",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 14",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 13",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 12",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 11",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 10",
+        "desc": "Inhabits the entirety of Ratt's Family Diner, somehow. Replaced by a void when reaching Floor 20. (Ratt's Family Diner Canon Event)",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 9",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 8",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 7",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 6",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 5",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 4",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 3",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 2",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor 1",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor -1",
+        "desc": "",
+        "enemies": []
+    },
+
+    {
+        "name": "Floor -2",
+        "desc": "",
+        "enemies": []
+    }
+]
