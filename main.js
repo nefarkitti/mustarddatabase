@@ -3,11 +3,11 @@ const units = document.getElementById("units")
 
 let unitsData
 
-let regions = ["BASE", "SWORD DESCENT", "PEPSI-CO", "RATS", "MISC"]
+let regions = ["BASE", "SWORD DESCENT", "SODA Co", "RATS", "BEARD PIRATES", "MISC", "VELVET"]
 
 units.innerHTML = ``
 
-axios.get('https://raw.githubusercontent.com/nefarkitti/mustardskillcreator/refs/heads/main/enemies.json').then(res => { //https://raw.githubusercontent.com/nefarkitti/mustardskillcreator/refs/heads/main/enemies.json
+axios.get('https://raw.githubusercontent.com/nefarkitti/mustardskillcreator/refs/heads/main/enemies2.json').then(res => { //https://raw.githubusercontent.com/nefarkitti/mustardskillcreator/refs/heads/main/enemies.json
     let jsonData = res.data // should be json by default
 
     unitsData = jsonData
