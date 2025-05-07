@@ -164,6 +164,11 @@ function loadUnit(i) {
                                     <div class="skillcontent" style="margin-top:-10px;">
     
                                         <span class="extra">${unit.note}</span>
+                                        <div class="nowthisisreallyextra">
+                                            <span class="extra">${unit.pronouns}</span> <br>
+                                            <span class="extra">${unit.preference}</span> <br>
+                                            <span class="extra">${unit.relationship}</span>
+                                        </div>
 
                                     </div>
 

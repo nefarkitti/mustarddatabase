@@ -7,14 +7,14 @@
 
     {
         "name": "Floor 20",
-        "desc": "",
-        "enemies": []
+        "desc": "This is where the King in Soda fight takes place. The final obstacle to Jane and her mission of defeating the rats controlling SODA.",
+        "enemies": ["King in Soda"]
     },
 
     {
         "name": "Floor 19",
-        "desc": "",
-        "enemies": []
+        "desc": "Jane has found the boss.",
+        "enemies": ["Manager"]
     },
 
     {
@@ -55,7 +55,7 @@
 
     {
         "name": "Floor 12",
-        "desc": "",
+        "desc": "Completely overtaken by Reindeer.",
         "enemies": []
     },
 
@@ -109,19 +109,19 @@
 
     {
         "name": "Floor 3",
-        "desc": "",
-        "enemies": []
+        "desc": "This floor is under construction. Literally. This is where Jane is introduced to Builder Guy, a character that will have no future relevance whatsoever. Totally.",
+        "enemies": ["Builder Guy"]
     },
 
     {
         "name": "Floor 2",
-        "desc": "",
-        "enemies": []
+        "desc": "A working floor for SODA Co. employees. They litter the floor and try to stop Jane from advancing any further.",
+        "enemies": ["SODA. Co Employee"]
     },
 
     {
         "name": "Floor 1",
-        "desc": "",
+        "desc": "The entrance floor of SODA Co. There are no enemies present here, only Resept and Undescript Vendor.",
         "enemies": []
     },
 
